@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CETI News | Eventos</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="icon" href="images/cn-logo.png">
+	<script>
+		function menuLateral() {
+			var slider = document.getElementById("menu");
+
+			if (slider.style.left == "0px") {
+				slider.style.left = "-1000px";
+			}
+			else {
+				slider.style.left = "0px";
+			}
+		}
+	</script>
+</head>
+<body>
+	<!--NAVBAR-->
+	<div id="navbar">
+		<h1><a href="index.html"><img src="images/cn-logo.png" alt="logo"></a></h1>
+
+		<div id="btn-menu" onclick="menuLateral()"><i class="fas fa-bars"></i></div>
+
+		<nav id="menu">
+			<a href="index.html"><i class="fas fa-home"></i> Início</a>
+			<a href="polemicas.html"><i class="fas fa-fire-alt"></i> Polêmicas</a>
+			<a href="noticias.html"><i class="far fa-newspaper"></i> Notícias</a>
+			<a href="eventos.html"><i class="far fa-calendar-alt"></i> Eventos</a>
+		</nav>
+	</div>
+
+	<!--HEADER-->
+	<header>
+		<img src="images/cn-logofull.png">
+	</header>
+
+	<main>
+		<!--CONTEÚDO-->
+		<section>
+			<article class="conteudo">
+				<h3>Sem conteúdo no momento!</h3>
+				<h2>Postaremos em breve...</h2>
+				<hr>
+				<h3><i class="material-icons">warning</i></h3>
+				<p></p>
+			</article>
+		</section>
+	</main>
+
+	<!--BOTÃO TOPO-->
+	<div id="topo"><a href="#top"><i class="fas fa-arrow-alt-circle-up fa-3x"></i></a></div>
+
+	<footer>
+		<div>
+			<a href="https://www.youtube.com/channel/UCMlmienw-J9ioxKMn5ioXbw" target="_blank"><i class="fab fa-youtube"></i></a>
+			<a href="#"><i class="fab fa-facebook-square"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		</div>
+		<h3>CETI <em>News</em></h3>
+	</footer>
+	<div id="creditos">
+		<p>Site desenvolvido por <a href="https://darktechlc.github.io/darktech" target="_blank">Dark Tech</a>.</p>
+	</div>
+</body>
+</html>
