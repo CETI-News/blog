@@ -32,11 +32,13 @@ li {list-style: none;}
 		width: 100%;
 		position:fixed;
 		top: 84px;
-		left: -1000px;
+		right: -1000px;
 		background-color: rgba(44, 62, 80,0.9);
-		transition: left 0.4s;
+		transition: right 0.5s;
+		height: 100%;
+		padding-top: 20px;
 	}
-	#navbar nav a {border-radius: 0; padding: 20px 15px;}
+	#navbar nav a {border-radius: 0; padding: 20px 15px; text-align: center; width: 100%;}
 }
 @media (max-height: 300px) {#navbar nav a {padding: 15px 20px;}}
 @media (max-height: 620px) {#navbar h1 img {width: 40px;} #navbar nav {top: 64px;}}
@@ -106,7 +108,7 @@ article p {font-size: 1.3rem; margin-top: 10px; text-align: justify; text-indent
 article table {font-size: 1.2rem; border-collapse: collapse; width: 100%; text-align: center;}
 article table tr, td, th {border: 1px solid rgba(44, 62, 80,1.0); padding: 10px 3px;}
 article table th {background-color: rgba(44, 62, 80,1.0); color: rgba(209, 216, 224, 1);}
-article table tr td {text-align: justify; font-size: 1.1rem;}
+article table tr td {text-align: left; font-size: 1.1rem;}
 article table tr td:first-child {line-height: bold;}
 article img, article iframe {
 	width: 75%;
