@@ -5,22 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CETI News | Notícias</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/article.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 	<link rel="icon" href="images/cn-logo.png">
-	<script>
-		function menuLateral() {
-			var slider = document.getElementById("menu");
-
-			if (slider.style.left == "0px") {
-				slider.style.left = "-1000px";
-			}
-			else {
-				slider.style.left = "0px";
-			}
-		}
-	</script>
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<!--NAVBAR-->
@@ -46,11 +36,13 @@
 		<!--CONTEÚDO-->
 		<section>
 			<article class="conteudo">
-				<h3>Sem conteúdo no momento!</h3>
-				<h2>Postaremos em breve...</h2>
+				<h3>NOTÍCIAS CETIJAB</h3>
 				<hr>
-				<h3><i class="material-icons">warning</i></h3>
-				<p></p>
+				<h2>2019</h2>
+				<div class="list">
+					<!--<a href="#" class="list_mes">Abril</a>-->
+					<a href="2019/noticias-fev-mar.html" class="list_mes">Fevereiro/Março</a>
+				</div>
 			</article>
 		</section>
 	</main>
@@ -67,7 +59,7 @@
 		<h3>CETI <em>News</em></h3>
 	</footer>
 	<div id="creditos">
-		<p>Site desenvolvido por <a href="https://darktechlc.github.io/darktech" target="_blank">Dark Tech</a>.</p>
+		<p>Site desenvolvido por </p><a href="https://darktechlc.github.io/darktech" target="_blank"><img src="images/darktech-logofull.png"></a>
 	</div>
 </body>
 </html>
